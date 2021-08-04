@@ -99,7 +99,7 @@ git push origin :refs/tags/<tagname>
 ```shell
 git rebase <master> //以master为基准, 当前分支所有提交都会处于master最新的后面
 git rebase -i <master_id> // 将当前分支所有提交合并成一个提交（保留第一个不变后面的都squash）
-git push --forse //更新远程分支，将远程分支也压缩成一个提交
+git push --force //更新远程分支，将远程分支也压缩成一个提交
 ```
 
 ### other(配置文件都在 `.git/config` 里面)
